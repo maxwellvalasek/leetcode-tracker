@@ -7,7 +7,7 @@ class Solution:
         hmap = defaultdict(int)
         for num in nums:
             hmap[num]+=1
-        print(hmap)
+        #print(hmap)
 
 
         for i in range(hmap[0]):
